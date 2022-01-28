@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.text-justify{
+  text-justify: distribute;
+}
 *{
   margin: 0;
   padding: 0;
@@ -370,6 +373,7 @@ header.sticky .menu-item .sub-menu{
 }
 .materials p{
   font-size: 18px;
+  line-height: 1.5;
 }
 
 
@@ -411,6 +415,9 @@ header.sticky .menu-item .sub-menu{
     border-radius: 10px;
   }
 }
+.content-2 h3{
+  padding-top: 44px;
+}
 
 
 /*Page About us*/
@@ -443,8 +450,6 @@ header.sticky .menu-item .sub-menu{
   color: white;
 }
 
-
-
 /*Page of Contact*/
 .contact__bg{
   background: url(../images/contact.jpg);
@@ -460,42 +465,25 @@ header.sticky .menu-item .sub-menu{
   margin: -11rem auto 0 auto;
   max-width: 85%;
   border-radius: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
 }
 
-.contact__info__text{
+.contact__p__icons{
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding-top: 15px;
-}
-.contact__info__text h2{
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-.contact__icons{
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
-
-
-
-@media(min-width:768px){
-  .contact__info__text h2{
-    font-size: 30px;
-  }
-}
-.contact__info__text{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .contact__info h2{
   color: #000000;
- 
+}
+.contact__p__text h2{
+  padding: 5px ;
+  margin: 0 auto;
+  font-size: 27px;
+  text-align: center;
+
 }
 
 
@@ -512,6 +500,7 @@ header.sticky .menu-item .sub-menu{
   text-align: center;
   align-items: center;
   padding-top: 25px;
+
 }
 .footer-main a{
   text-decoration: none;
