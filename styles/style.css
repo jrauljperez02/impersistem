@@ -17,6 +17,7 @@ section{
   padding: 20px 100px;
 }
 
+
 .section-home{
   position: relative;
   min-height: 100vh;
@@ -419,7 +420,6 @@ header.sticky .menu-item .sub-menu{
   padding-top: 44px;
 }
 
-
 /*Page About us*/
 
 .us__image img{
@@ -486,7 +486,14 @@ header.sticky .menu-item .sub-menu{
 
 }
 
-
+.mail h2{
+  font-size: 15px;
+}
+@media(min-width:768px){
+  .mail h2{
+    font-size: 27px;
+  }
+}
 
 
 
