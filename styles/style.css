@@ -30,7 +30,7 @@ section{
 }
 @media(min-width:768px){
   .section-home{
-    background: url(../images/logo.png)no-repeat;
+    background: url(../images/INICIO.png)no-repeat;
   }
 }
 
@@ -390,34 +390,14 @@ header.sticky .menu-item .sub-menu{
   max-width: 85%;
   margin: 0 auto;
 }
-.content p{
-  margin: 0 auto;
-}
-.content p:last-of-type{
-  padding-bottom: 30px;
-}
 
-.content img{
-  max-width: 100%;
-  margin: 30px auto;
-  border-radius: 10px;
-}
-@media(min-width:768px){
-  .content{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 30px;
-  }
-  .content__info{
-    padding: 60px 0;
-  }
-  .content img{
-    margin: auto 0;
-    border-radius: 10px;
-  }
+.content-2{
+  margin-bottom: 0%;
+  padding-bottom: 22px;
 }
 .content-2 h3{
-  padding-top: 44px;
+  padding-top: 35px;
+  padding-bottom: 15px;
 }
 
 /*Page About us*/
@@ -486,15 +466,15 @@ header.sticky .menu-item .sub-menu{
 
 }
 
+
 .mail h2{
   font-size: 15px;
 }
 @media(min-width:768px){
   .mail h2{
-    font-size: 27px;
+    font-size: 20px;
   }
 }
-
 
 
 
