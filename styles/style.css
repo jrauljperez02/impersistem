@@ -349,6 +349,9 @@ header.sticky .menu-item .sub-menu{
   margin: 0 auto;
 }
 /*Main Page*/
+.materials{
+  padding-top: 40px;
+}
 .materials img{
   max-width: 100%;
   border-radius: 10px;
@@ -370,11 +373,13 @@ header.sticky .menu-item .sub-menu{
   }
 }
 .materials__text{
-  margin-top: 25px;
+  margin-top: 10px;
 }
-.materials p{
+
+.materials{
   font-size: 18px;
   line-height: 1.5;
+  border-bottom: 1px solid white;
 }
 
 
