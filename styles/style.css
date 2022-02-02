@@ -16,6 +16,9 @@ body{
 section{
   padding: 20px 100px;
 }
+li{
+  color: white;
+}
 
 
 .section-home{
@@ -545,4 +548,11 @@ header.sticky .menu-item .sub-menu{
   padding-top: 10px;
   padding-bottom: 25px;
   text-align: justify;
+}
+.materials__text__list p{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.materials__text__list:last-of-type{
+  padding-bottom: 25px;
 }
