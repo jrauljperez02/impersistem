@@ -375,10 +375,12 @@ header.sticky .menu-item .sub-menu{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 @media(min-width:768px){
   .us{
     display: grid;
-    grid-template-columns: 2.8fr 1.4fr;
+    grid-template-columns: 2.8fr 1.9fr;
+    column-gap: 10px;
   }
   .us__image img{
     max-width: 100%;
@@ -387,6 +389,13 @@ header.sticky .menu-item .sub-menu{
   .last{
     margin-bottom: 30px;
   }
+  .us__info h3,
+  .us__info h4,
+  .us__info p{
+  max-width: 85%;
+  text-align: justify;
+  color: white;
+}
 }
 
 
@@ -409,10 +418,10 @@ header.sticky .menu-item .sub-menu{
 }
 .contact__info{
   background-color: white;
-  margin: -11rem auto 0 auto;
-  max-width: 85%;
+  margin: -4rem auto 0 auto;
+  max-width: 100%;
   border-radius: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   margin-bottom: 30px;
 }
 
@@ -440,6 +449,20 @@ header.sticky .menu-item .sub-menu{
 @media(min-width:768px){
   .mail h2{
     font-size: 20px;
+  }
+}
+.phrase{
+  background-color: #000016;
+  color: white;
+  padding:10px 0;
+  margin-top: 30px;;
+}
+.phrase h1{
+  font-size:  28px;
+}
+@media(min-width:768px){
+  .phrase h1{
+    font-size: 40px;
   }
 }
 
